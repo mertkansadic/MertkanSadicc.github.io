@@ -1,7 +1,7 @@
 <?php
-// preview.php - Form verilerini gösteren sayfa
 
-// Verileri al ve boş olup olmadığını kontrol et
+
+
 $name = !empty($_POST['name']) ? $_POST['name'] : 'Not provided';
 $username = !empty($_POST['username']) ? $_POST['username'] : 'Not provided';
 $password = !empty($_POST['password']) ? $_POST['password'] : 'Not provided';
@@ -31,7 +31,7 @@ $about = !empty($_POST['about']) ? $_POST['about'] : 'Not provided';
     <div class="container">
         <h2>Preview</h2>
 
-        <!-- Verileri Göster -->
+        
         <p>Name: <span class="output"><?php echo $name; ?></span></p>
         <p>Username: <span class="output"><?php echo $username; ?></span></p>
         <p>Password: <span class="output"><?php echo $password; ?></span></p>
